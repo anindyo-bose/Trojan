@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come
     *after* these tags -->
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon"/>
-    <title>CCWIT</title>
+    <title>Trojan</title>
 
     <!--Super  Reset CSS To resetting (Remove) browsers default Property-->
     <link rel="stylesheet" type="text/css" href="stylesheet\Super_Reset.css">
@@ -46,9 +46,9 @@
   <body>
     <div class="w3-bar w3-top w3-red">
         <a href="#" class="w3-bar-item w3-button">Home</a>
-        <a href="demo.html" class="w3-bar-item w3-button w3-hide-small">Projects</a>
-        <a href="demo.html" class="w3-bar-item w3-button w3-hide-small">About Us</a>
-        <a href="demo.html" class="w3-bar-item w3-button w3-hide-small">Contact Us</a>
+        <a href="#" onclick="myFunction()" class="w3-bar-item w3-button w3-hide-small">Projects</a>
+        <a href="#" onclick="myFunction()" class="w3-bar-item w3-button w3-hide-small">About Us</a>
+        <a href="#" onclick="myFunction()" class="w3-bar-item w3-button w3-hide-small">Contact Us</a>
         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
       </div>
 
@@ -64,5 +64,10 @@
 <div class="container-fluid w3-center w3-hide-large w3-hide-medium">
   <iframe class="w3-center" src="https://docs.google.com/forms/d/e/1FAIpQLSeMd-XPs8fU4HCehfx8uPuSbfG3idB-SkGO8vhI40jnuGB6cA/viewform?embedded=true" scrolling="no" width="400" height="1280px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
+<script>
+function myFunction() {
+    alert("I am an alert box!");
+}
+</script>
   </body>
 </html>
